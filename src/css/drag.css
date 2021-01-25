@@ -1,0 +1,5 @@
+.drag-area {
+    touch-action: none;
+    text-align: center;
+    line-height: 100px;
+}
