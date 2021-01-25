@@ -91,5 +91,6 @@ body {
 
 .drop-area_focus {
     border: solid 1px lightgray;
+    background: lightgray;
 }
 
