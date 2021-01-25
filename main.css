@@ -1,0 +1,95 @@
+html {
+    background: black;
+    color: white;
+}
+body {
+    margin: 0;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;;
+}
+
+@media (min-width: 576px) {
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: brown;
+}
+.drag-area {
+    touch-action: none;
+    text-align: center;
+    line-height: 100px;
+}
+.drop-area {
+    min-height: 200px;
+    box-sizing: border-box;
+    background: gray;
+    border: solid 1px gray;
+}
+
+.drop-area_fluid {
+    position: relative;
+    overflow: hidden;
+}
+
+.drop-area_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drop-area_focus {
+    border: solid 1px lightgray;
+}
+
